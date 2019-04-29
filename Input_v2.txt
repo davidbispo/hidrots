@@ -1,0 +1,20 @@
+##hsprinter##
+filename = C:\Users\David\Desktop\hidrots_1.4\test\Planilha_mestra.csv
+	   C:\Users\david\Desktop\hidrots_1.4\test\tamandare_2016.csv
+
+limits = [datetime.date(2003, 1, 1),datetime.date(2017, 12, 31)]
+Header = Datahora
+rflist = [4]
+flowlist = [8]
+output_print = r'C:\Users\david\Desktop\hidrots_1.0\output_tseries.png'
+
+#FlawReport
+output_flaw = r'C:\Users\david\Desktop\hidrots_1.0\output_flaw.png'
+missingreport (data_df, flow_list = flowlist, rainfall_list=rflist, output = 'output_flaw.png', printfig = True, output_flaw = output_flaw, dpi = 600, figsize=(16,8))
+
+#RunoffSep
+filename = C:\Users\david\Desktop\hidrots_1.3\test\tamandare_2016.csv
+limits = [datetime.datetime(2016, 8, 17, 5),datetime.datetime(2016, 8, 29, 1)]
+event_duration = [datetime.datetime(2016, 8, 17, 13),datetime.datetime(2016, 8, 28, 11)]
+#saida = r'C:\Users\david\Desktop\hidrots_1.0\runoff_sep_plot.png'
+

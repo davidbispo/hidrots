@@ -1,0 +1,28 @@
+filename = C:\Users\David\Desktop\hidrots_1.3\test\Planilha_mestra.csv
+	   D:\OneDrive\PyProjects\hidrots_1.3test\Planilha_mestra.csv
+	   C:\Users\david\Desktop\hidrots_1.3\test\tamandare_2016.csv
+
+limits = [datetime.date(2003, 1, 1),datetime.date(2017, 12, 31)]
+Header = Datahora
+rflist = ['Simepar']
+flowlist = ['65019675_stq']
+
+
+rflist = ['2549077' , '2549080', '2549081','2549100','Simepar', '2549107']
+#rflist = ['Simepar']
+#hsprinter(data_df,flowlist, rflist, output = r'C:\Users\david\Desktop\hidrots_1.0', print_tofile = True, dpi = 600)
+#test_hsprinter()
+    
+flowlist = ['65019700_cax', '65019675_stq', 'Tmd_vaz']
+rflist = ['2549077' , '2549080', '2549081','2549100','Simepar', '2549107']
+output_flaw = r'C:\Users\david\Desktop\hidrots_1.0\output_flaw.png'
+missingreport (data_df, flow_list = flowlist, rainfall_list=rflist, output = 'output_flaw.png', printfig = True, output_flaw = output_flaw, dpi = 600, figsize=(16,8))
+#test_missingreport()
+
+#event_duration = [datetime.datetime(2016, 8, 17, 13),datetime.datetime(2016, 8, 28, 11)]
+#fileinput_sep = r''
+#limits = [datetime.datetime(2016, 8, 17, 5),datetime.datetime(2016, 8, 29, 1)]
+#saida = r'C:\Users\david\Desktop\hidrots_1.0\runoff_sep_plot.png'
+#data_df = getts(fileinput_sep, index_col = 'Datahora', indexparse = ['Datahora'], separator = ',', limits = limits )
+#sep_straight(data_df,event_duration, FLOWFieldName = 'Vazao', output = saida)
+#test_sep_straight()

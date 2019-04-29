@@ -1,0 +1,2 @@
+file = r'D:\OneDrive\PyProjects\hidrots_1.3\test\Planilha_mestra_geral_v1.csv'
+limits = [datetime.date(2003, 1, 1),datetime.date(2017, 12, 31)]
